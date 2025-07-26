@@ -1,0 +1,722 @@
+[
+    {
+        "Soru": "Duş alırım.",
+        "Cevap": "I have a shower."
+    },
+    {
+        "Soru": "Duş almam.",
+        "Cevap": "I don’t have a shower."
+    },
+    {
+        "Soru": "Duş alır mıyım?",
+        "Cevap": "Do I have a shower?"
+    },
+    {
+        "Soru": "Kahvaltı yaparım.",
+        "Cevap": "I have breakfast."
+    },
+    {
+        "Soru": "Kahvaltı yapmam.",
+        "Cevap": "I don’t have breakfast."
+    },
+    {
+        "Soru": "Kahvaltı yapar mıyım?",
+        "Cevap": "Do I have breakfast?"
+    },
+    {
+        "Soru": "Okula giderim.",
+        "Cevap": "I go to school."
+    },
+    {
+        "Soru": "Okula gitmem.",
+        "Cevap": "I don’t go to school."
+    },
+    {
+        "Soru": "Okula gider miyim?",
+        "Cevap": "Do I go to school?"
+    },
+    {
+        "Soru": "Dişlerimi fırçalarım.",
+        "Cevap": "I brush my teeth."
+    },
+    {
+        "Soru": "Dişlerimi fırçalamam.",
+        "Cevap": "I don’t brush my teeth."
+    },
+    {
+        "Soru": "Dişlerimi fırçalar mıyım?",
+        "Cevap": "Do I brush my teeth?"
+    },
+    {
+        "Soru": "Giyinirim.",
+        "Cevap": "I get dressed."
+    },
+    {
+        "Soru": "Giyinmem.",
+        "Cevap": "I don’t get dressed."
+    },
+    {
+        "Soru": "Giyinir miyim?",
+        "Cevap": "Do I get dressed?"
+    },
+    {
+        "Soru": "Kalkarım.",
+        "Cevap": "I get up."
+    },
+    {
+        "Soru": "Kalkmam.",
+        "Cevap": "I don’t get up."
+    },
+    {
+        "Soru": "Kalkar mıyım?",
+        "Cevap": "Do I get up?"
+    },
+    {
+        "Soru": "Uyanırım.",
+        "Cevap": "I wake up."
+    },
+    {
+        "Soru": "Uyanmam.",
+        "Cevap": "I don’t wake up."
+    },
+    {
+        "Soru": "Uyanır mıyım?",
+        "Cevap": "Do I wake up?"
+    },
+    {
+        "Soru": "Yüzümü yıkarım.",
+        "Cevap": "I wash my face."
+    },
+    {
+        "Soru": "Yüzümü yıkamam.",
+        "Cevap": "I don’t wash my face."
+    },
+    {
+        "Soru": "Yüzümü yıkar mıyım?",
+        "Cevap": "Do I wash my face?"
+    },
+    {
+        "Soru": "Saçımı tararım.",
+        "Cevap": "I comb my hair."
+    },
+    {
+        "Soru": "Saçımı taramam.",
+        "Cevap": "I don’t comb my hair."
+    },
+    {
+        "Soru": "Saçımı tarar mıyım?",
+        "Cevap": "Do I comb my hair?"
+    },
+    {
+        "Soru": "Banyo yaparım.",
+        "Cevap": "I have a bath."
+    },
+    {
+        "Soru": "Banyo yapmam.",
+        "Cevap": "I don’t have a bath."
+    },
+    {
+        "Soru": "Banyo yapar mıyım?",
+        "Cevap": "Do I have a bath?"
+    },
+    {
+        "Soru": "Duş alırsın.",
+        "Cevap": "You have a shower."
+    },
+    {
+        "Soru": "Duş almazsın.",
+        "Cevap": "You don’t have a shower."
+    },
+    {
+        "Soru": "Duş alır mısın?",
+        "Cevap": "Do you have a shower?"
+    },
+    {
+        "Soru": "Kahvaltı yaparsın.",
+        "Cevap": "You have breakfast."
+    },
+    {
+        "Soru": "Kahvaltı yapmazsın.",
+        "Cevap": "You don’t have breakfast."
+    },
+    {
+        "Soru": "Kahvaltı yapar mısın?",
+        "Cevap": "Do you have breakfast?"
+    },
+    {
+        "Soru": "Okula gidersin.",
+        "Cevap": "You go to school."
+    },
+    {
+        "Soru": "Okula gitmezsin.",
+        "Cevap": "You don’t go to school."
+    },
+    {
+        "Soru": "Okula gider misin?",
+        "Cevap": "Do you go to school?"
+    },
+    {
+        "Soru": "Dişlerini fırçalarsın.",
+        "Cevap": "You brush your teeth."
+    },
+    {
+        "Soru": "Dişlerini fırçalamazsın.",
+        "Cevap": "You don’t brush your teeth."
+    },
+    {
+        "Soru": "Dişlerini fırçalar mısın?",
+        "Cevap": "Do you brush your teeth?"
+    },
+    {
+        "Soru": "Giyinirsin.",
+        "Cevap": "You get dressed."
+    },
+    {
+        "Soru": "Giyinmezsin.",
+        "Cevap": "You don’t get dressed."
+    },
+    {
+        "Soru": "Giyinir misin?",
+        "Cevap": "Do you get dressed?"
+    },
+    {
+        "Soru": "Kalkarsın.",
+        "Cevap": "You get up."
+    },
+    {
+        "Soru": "Kalkmazsın.",
+        "Cevap": "You don’t get up."
+    },
+    {
+        "Soru": "Kalkar mısın?",
+        "Cevap": "Do you get up?"
+    },
+    {
+        "Soru": "Uyanırsın.",
+        "Cevap": "You wake up."
+    },
+    {
+        "Soru": "Uyanmazsın.",
+        "Cevap": "You don’t wake up."
+    },
+    {
+        "Soru": "Uyanır mısın?",
+        "Cevap": "Do you wake up?"
+    },
+    {
+        "Soru": "Yüzünü yıkarsın.",
+        "Cevap": "You wash your face."
+    },
+    {
+        "Soru": "Yüzünü yıkamazsın.",
+        "Cevap": "You don’t wash your face."
+    },
+    {
+        "Soru": "Yüzünü yıkar mısın?",
+        "Cevap": "Do you wash your face?"
+    },
+    {
+        "Soru": "Saçını tararsın.",
+        "Cevap": "You comb your hair."
+    },
+    {
+        "Soru": "Saçını taramazsın.",
+        "Cevap": "You don’t comb your hair."
+    },
+    {
+        "Soru": "Saçını tarar mısın?",
+        "Cevap": "Do you comb your hair?"
+    },
+    {
+        "Soru": "Banyo yaparsın.",
+        "Cevap": "You have a bath."
+    },
+    {
+        "Soru": "Banyo yapmazsın.",
+        "Cevap": "You don’t have a bath."
+    },
+    {
+        "Soru": "Banyo yapar mısın?",
+        "Cevap": "Do you have a bath?"
+    },
+    {
+        "Soru": "Duş alır.",
+        "Cevap": "She has a shower."
+    },
+    {
+        "Soru": "Duş almaz.",
+        "Cevap": "She doesn’t have a shower."
+    },
+    {
+        "Soru": "Duş alır mı?",
+        "Cevap": "Does she have a shower?"
+    },
+    {
+        "Soru": "Kahvaltı yapar.",
+        "Cevap": "She has breakfast."
+    },
+    {
+        "Soru": "Kahvaltı yapmaz.",
+        "Cevap": "She doesn’t have breakfast."
+    },
+    {
+        "Soru": "Kahvaltı yapar mı?",
+        "Cevap": "Does she have breakfast?"
+    },
+    {
+        "Soru": "Okula gider.",
+        "Cevap": "She goes to school."
+    },
+    {
+        "Soru": "Okula gitmez.",
+        "Cevap": "She doesn’t go to school."
+    },
+    {
+        "Soru": "Okula gider mi?",
+        "Cevap": "Does she go to school?"
+    },
+    {
+        "Soru": "Dişlerini fırçalar.",
+        "Cevap": "She brushes her teeth."
+    },
+    {
+        "Soru": "Dişlerini fırçalamaz.",
+        "Cevap": "She doesn’t brush her teeth."
+    },
+    {
+        "Soru": "Dişlerini fırçalar mı?",
+        "Cevap": "Does she brush her teeth?"
+    },
+    {
+        "Soru": "Giyinir.",
+        "Cevap": "She gets dressed."
+    },
+    {
+        "Soru": "Giyinmez.",
+        "Cevap": "She doesn’t get dressed."
+    },
+    {
+        "Soru": "Giyinir mi?",
+        "Cevap": "Does she get dressed?"
+    },
+    {
+        "Soru": "Kalkar.",
+        "Cevap": "She gets up."
+    },
+    {
+        "Soru": "Kalkmaz.",
+        "Cevap": "She doesn’t get up."
+    },
+    {
+        "Soru": "Kalkar mı?",
+        "Cevap": "Does she get up?"
+    },
+    {
+        "Soru": "Uyanır.",
+        "Cevap": "She wakes up."
+    },
+    {
+        "Soru": "Uyanmaz.",
+        "Cevap": "She doesn’t wake up."
+    },
+    {
+        "Soru": "Uyanır mı?",
+        "Cevap": "Does she wake up?"
+    },
+    {
+        "Soru": "Yüzünü yıkar.",
+        "Cevap": "She washes her face."
+    },
+    {
+        "Soru": "Yüzünü yıkamaz.",
+        "Cevap": "She doesn’t wash her face."
+    },
+    {
+        "Soru": "Yüzünü yıkar mı?",
+        "Cevap": "Does she wash her face?"
+    },
+    {
+        "Soru": "Saçını tarar.",
+        "Cevap": "She combs her hair."
+    },
+    {
+        "Soru": "Saçını taramaz.",
+        "Cevap": "She doesn’t comb her hair."
+    },
+    {
+        "Soru": "Saçını tarar mı?",
+        "Cevap": "Does she comb her hair?"
+    },
+    {
+        "Soru": "Banyo yapar.",
+        "Cevap": "She has a bath."
+    },
+    {
+        "Soru": "Banyo yapmaz.",
+        "Cevap": "She doesn’t have a bath."
+    },
+    {
+        "Soru": "Banyo yapar mı?",
+        "Cevap": "Does she have a bath?"
+    },
+    {
+        "Soru": "Duş alır.",
+        "Cevap": "He has a shower."
+    },
+    {
+        "Soru": "Duş almaz.",
+        "Cevap": "He doesn’t have a shower."
+    },
+    {
+        "Soru": "Duş alır mı?",
+        "Cevap": "Does he have a shower?"
+    },
+    {
+        "Soru": "Kahvaltı yapar.",
+        "Cevap": "He has breakfast."
+    },
+    {
+        "Soru": "Kahvaltı yapmaz.",
+        "Cevap": "He doesn’t have breakfast."
+    },
+    {
+        "Soru": "Kahvaltı yapar mı?",
+        "Cevap": "Does he have breakfast?"
+    },
+    {
+        "Soru": "Okula gider.",
+        "Cevap": "He goes to school."
+    },
+    {
+        "Soru": "Okula gitmez.",
+        "Cevap": "He doesn’t go to school."
+    },
+    {
+        "Soru": "Okula gider mi?",
+        "Cevap": "Does he go to school?"
+    },
+    {
+        "Soru": "Dişlerini fırçalar.",
+        "Cevap": "He brushes his teeth."
+    },
+    {
+        "Soru": "Dişlerini fırçalamaz.",
+        "Cevap": "He doesn’t brush his teeth."
+    },
+    {
+        "Soru": "Dişlerini fırçalar mı?",
+        "Cevap": "Does he brush his teeth?"
+    },
+    {
+        "Soru": "Giyinir.",
+        "Cevap": "He gets dressed."
+    },
+    {
+        "Soru": "Giyinmez.",
+        "Cevap": "He doesn’t get dressed."
+    },
+    {
+        "Soru": "Giyinir mi?",
+        "Cevap": "Does he get dressed?"
+    },
+    {
+        "Soru": "Kalkar.",
+        "Cevap": "He gets up."
+    },
+    {
+        "Soru": "Kalkmaz.",
+        "Cevap": "He doesn’t get up."
+    },
+    {
+        "Soru": "Kalkar mı?",
+        "Cevap": "Does he get up?"
+    },
+    {
+        "Soru": "Uyanır.",
+        "Cevap": "He wakes up."
+    },
+    {
+        "Soru": "Uyanmaz.",
+        "Cevap": "He doesn’t wake up."
+    },
+    {
+        "Soru": "Uyanır mı?",
+        "Cevap": "Does he wake up?"
+    },
+    {
+        "Soru": "Yüzünü yıkar.",
+        "Cevap": "He washes his face."
+    },
+    {
+        "Soru": "Yüzünü yıkamaz.",
+        "Cevap": "He doesn’t wash his face."
+    },
+    {
+        "Soru": "Yüzünü yıkar mı?",
+        "Cevap": "Does he wash his face?"
+    },
+    {
+        "Soru": "Saçını tarar.",
+        "Cevap": "He combs his hair."
+    },
+    {
+        "Soru": "Saçını taramaz.",
+        "Cevap": "He doesn’t comb his hair."
+    },
+    {
+        "Soru": "Saçını tarar mı?",
+        "Cevap": "Does he comb his hair?"
+    },
+    {
+        "Soru": "Banyo yapar.",
+        "Cevap": "He has a bath."
+    },
+    {
+        "Soru": "Banyo yapmaz.",
+        "Cevap": "He doesn’t have a bath."
+    },
+    {
+        "Soru": "Banyo yapar mı?",
+        "Cevap": "Does he have a bath?"
+    },
+    {
+        "Soru": "Duş alırız.",
+        "Cevap": "We have a shower."
+    },
+    {
+        "Soru": "Duş almayız.",
+        "Cevap": "We don’t have a shower."
+    },
+    {
+        "Soru": "Duş alır mıyız?",
+        "Cevap": "Do we have a shower?"
+    },
+    {
+        "Soru": "Kahvaltı yaparız.",
+        "Cevap": "We have breakfast."
+    },
+    {
+        "Soru": "Kahvaltı yapmayız.",
+        "Cevap": "We don’t have breakfast."
+    },
+    {
+        "Soru": "Kahvaltı yapar mıyız?",
+        "Cevap": "Do we have breakfast?"
+    },
+    {
+        "Soru": "Okula gideriz.",
+        "Cevap": "We go to school."
+    },
+    {
+        "Soru": "Okula gitmeyiz.",
+        "Cevap": "We don’t go to school."
+    },
+    {
+        "Soru": "Okula gider miyiz?",
+        "Cevap": "Do we go to school?"
+    },
+    {
+        "Soru": "Dişlerimizi fırçalarız.",
+        "Cevap": "We brush our teeth."
+    },
+    {
+        "Soru": "Dişlerimizi fırçalamayız.",
+        "Cevap": "We don’t brush our teeth."
+    },
+    {
+        "Soru": "Dişlerimizi fırçalar mıyız?",
+        "Cevap": "Do we brush our teeth?"
+    },
+    {
+        "Soru": "Giyiniriz.",
+        "Cevap": "We get dressed."
+    },
+    {
+        "Soru": "Giyinmeyiz.",
+        "Cevap": "We don’t get dressed."
+    },
+    {
+        "Soru": "Giyinir miyiz?",
+        "Cevap": "Do we get dressed?"
+    },
+    {
+        "Soru": "Kalkarız.",
+        "Cevap": "We get up."
+    },
+    {
+        "Soru": "Kalkmayız.",
+        "Cevap": "We don’t get up."
+    },
+    {
+        "Soru": "Kalkar mıyız?",
+        "Cevap": "Do we get up?"
+    },
+    {
+        "Soru": "Uyanırız.",
+        "Cevap": "We wake up."
+    },
+    {
+        "Soru": "Uyanmayız.",
+        "Cevap": "We don’t wake up."
+    },
+    {
+        "Soru": "Uyanır mıyız?",
+        "Cevap": "Do we wake up?"
+    },
+    {
+        "Soru": "Yüzümüzü yıkarız.",
+        "Cevap": "We wash our face."
+    },
+    {
+        "Soru": "Yüzümüzü yıkamayız.",
+        "Cevap": "We don’t wash our face."
+    },
+    {
+        "Soru": "Yüzümüzü yıkar mıyız?",
+        "Cevap": "Do we wash our face?"
+    },
+    {
+        "Soru": "Saçımızı tararız.",
+        "Cevap": "We comb our hair."
+    },
+    {
+        "Soru": "Saçımızı taramayız.",
+        "Cevap": "We don’t comb our hair."
+    },
+    {
+        "Soru": "Saçımızı tarar mıyız?",
+        "Cevap": "Do we comb our hair?"
+    },
+    {
+        "Soru": "Banyo yaparız.",
+        "Cevap": "We have a bath."
+    },
+    {
+        "Soru": "Banyo yapmayız.",
+        "Cevap": "We don’t have a bath."
+    },
+    {
+        "Soru": "Banyo yapar mıyız?",
+        "Cevap": "Do we have a bath?"
+    },
+    {
+        "Soru": "Duş alırlar.",
+        "Cevap": "They have a shower."
+    },
+    {
+        "Soru": "Duş almazlar.",
+        "Cevap": "They don’t have a shower."
+    },
+    {
+        "Soru": "Duş alırlar mı?",
+        "Cevap": "Do they have a shower?"
+    },
+    {
+        "Soru": "Kahvaltı yaparlar.",
+        "Cevap": "They have breakfast."
+    },
+    {
+        "Soru": "Kahvaltı yapmazlar.",
+        "Cevap": "They don’t have breakfast."
+    },
+    {
+        "Soru": "Kahvaltı yaparlar mı?",
+        "Cevap": "Do they have breakfast?"
+    },
+    {
+        "Soru": "Okula giderler.",
+        "Cevap": "They go to school."
+    },
+    {
+        "Soru": "Okula gitmezler.",
+        "Cevap": "They don’t go to school."
+    },
+    {
+        "Soru": "Okula giderler mi?",
+        "Cevap": "Do they go to school?"
+    },
+    {
+        "Soru": "Dişlerini fırçalarlar.",
+        "Cevap": "They brush their teeth."
+    },
+    {
+        "Soru": "Dişlerini fırçalamazlar.",
+        "Cevap": "They don’t brush their teeth."
+    },
+    {
+        "Soru": "Dişlerini fırçalarlar mı?",
+        "Cevap": "Do they brush their teeth?"
+    },
+    {
+        "Soru": "Giyinirler.",
+        "Cevap": "They get dressed."
+    },
+    {
+        "Soru": "Giyinmezler.",
+        "Cevap": "They don’t get dressed."
+    },
+    {
+        "Soru": "Giyinirler mi?",
+        "Cevap": "Do they get dressed?"
+    },
+    {
+        "Soru": "Kalkarlar.",
+        "Cevap": "They get up."
+    },
+    {
+        "Soru": "Kalkmazlar.",
+        "Cevap": "They don’t get up."
+    },
+    {
+        "Soru": "Kalkarlar mı?",
+        "Cevap": "Do they get up?"
+    },
+    {
+        "Soru": "Uyanırlar.",
+        "Cevap": "They wake up."
+    },
+    {
+        "Soru": "Uyanmazlar.",
+        "Cevap": "They don’t wake up."
+    },
+    {
+        "Soru": "Uyanırlar mı?",
+        "Cevap": "Do they wake up?"
+    },
+    {
+        "Soru": "Yüzlerini yıkarlar.",
+        "Cevap": "They wash their face."
+    },
+    {
+        "Soru": "Yüzlerini yıkamazlar.",
+        "Cevap": "They don’t wash their face."
+    },
+    {
+        "Soru": "Yüzlerini yıkarlar mı?",
+        "Cevap": "Do they wash their face?"
+    },
+    {
+        "Soru": "Saçlarını tararlar.",
+        "Cevap": "They comb their hair."
+    },
+    {
+        "Soru": "Saçlarını taramazlar.",
+        "Cevap": "They don’t comb their hair."
+    },
+    {
+        "Soru": "Saçlarını tararlar mı?",
+        "Cevap": "Do they comb their hair?"
+    },
+    {
+        "Soru": "Banyo yaparlar.",
+        "Cevap": "They have a bath."
+    },
+    {
+        "Soru": "Banyo yapmazlar.",
+        "Cevap": "They don’t have a bath."
+    },
+    {
+        "Soru": "Banyo yaparlar mı?",
+        "Cevap": "Do they have a bath?"
+    }
+]
