@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>🧠 English Quiz</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+    body {
+      margin: 0;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      font-family: 'Poppins', sans-serif;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    #app {
+      background: rgba(255,255,255,0.1);
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+      width: 400px;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2.2rem;
+      margin-bottom: 20px;
+    }
+    #question {
+      font-size: 1.2rem;
+      margin-bottom: 15px;
+      min-height: 60px;
+    }
+    input[type="text"] {
+      width: 100%;
+      padding: 10px;
+      font-size: 1rem;
+      border-radius: 10px;
+      border: none;
+      outline: none;
+      margin-bottom: 15px;
+    }
+    button {
+      background: linear-gradient(to right, #2575fc, #6a11cb);
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 10px;
+      font-size: 1rem;
+      cursor: pointer;
+      margin: 5px;
+    }
+    button:disabled {
+      background: #888;
+      cursor: not-allowed;
+    }
+    #feedback {
+      font-size: 1.1rem;
+      min-height: 24px;
+      margin-top: 10px;
+    }
+    #score {
+      font-size: 1rem;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div id="app">
+    <h1>🧠 English Quiz</h1>
+
+    <div id="quiz">
+      <div id="question"></div>
+      <input type="text" id="answer" placeholder="Your answer..." />
+      <div>
+        <button id="submit-btn">✅ Submit</button>
+        <button id="prev-btn">⬅ Previous</button>
+        <button id="next-btn">Next ➡</button>
+        <button id="finish-btn">🏁 Finish Test</button>
+        <button id="reset-btn">🔄 Reset Score</button>
+      </div>
+      <div id="feedback"></div>
+      <div id="score"></div>
+    </div>
+  </div>
+
+  <script>
+    let questions = [];
+    let remainingIndexes = [];
+    let currentIndex = 0;
+
+    const questionDiv = document.getElementById("question");
+    const answerInput = document.getElementById("answer");
+    const feedbackDiv = document.getElementById("feedback");
+    const scoreDiv = document.getElementById("score");
+    const submitBtn = document.getElementById("submit-btn");
+    const prevBtn = document.getElementById("prev-btn");
+    const nextBtn = document.getElementById("next-btn");
+    const finishBtn = document.getElementById("finish-btn");
+    const resetBtn = document.getElementById("reset-btn");
+
+    function clean(text) {
+      return text.toString().toLowerCase()
+        .normalize('NFD').replace(/[\u0300-\u036f]/g, "")
+        .replace(/’|‘|`/g, "'")
+        .replace(/'/g, "")
+        .replace(/[.,\/#!$%\^&\*;:{}=\-_`~()"?]/g, "")
+        .replace(/\s+/g, "");
+    }
+
+    function speak(text) {
+      if ('speechSynthesis' in window) {
+        let msg = new SpeechSynthesisUtterance(text);
+        msg.lang = 'en-GB';
+        window.speechSynthesis.cancel();
+        window.speechSynthesis.speak(msg);
+      }
+    }
+
+    function showQuestion() {
+      if (remainingIndexes.length === 0) {
+        questionDiv.innerText = "🎉 Test completed!";
+        answerInput.style.display = 'none';
+        submitBtn.style.display = 'none';
+        prevBtn.style.display = 'none';
+        nextBtn.style.display = 'none';
+        finishBtn.style.display = 'none';
+        resetBtn.style.display = 'none';
+        feedbackDiv.textContent = '';
+        scoreDiv.textContent = '';
+        return;
+      }
+
+      const realIndex = remainingIndexes[currentIndex];
+      questionDiv.textContent = questions[realIndex].Soru;
+      answerInput.value = '';
+      feedbackDiv.textContent = '';
+      prevBtn.disabled = currentIndex === 0;
+      nextBtn.disabled = currentIndex >= remainingIndexes.length - 1;
+      updateScore();
+    }
+
+    function checkAnswer() {
+      const realIndex = remainingIndexes[currentIndex];
+      const userAnswer = answerInput.value.trim();
+      const correctAnswer = questions[realIndex].Cevap;
+
+      if (clean(userAnswer) === clean(correctAnswer) && userAnswer !== "") {
+        feedbackDiv.innerHTML = `<span style="color:lightgreen;">✅ Correct!</span>`;
+        localStorage.setItem(`answer_${realIndex}`, correctAnswer);
+      } else {
+        feedbackDiv.innerHTML = `<span style="color:salmon;">❌ Incorrect. Correct: ${correctAnswer}</span>`;
+        localStorage.setItem(`answer_${realIndex}`, userAnswer);
+      }
+      speak(correctAnswer);
+      updateScore();
+    }
+
+    function updateScore() {
+      let correct = 0;
+      for (let i = 0; i < questions.length; i++) {
+        const saved = localStorage.getItem(`answer_${i}`);
+        if (saved && clean(saved) === clean(questions[i].Cevap)) {
+          correct++;
+        }
+      }
+      scoreDiv.textContent = `Score: ${correct} / ${questions.length}`;
+    }
+
+    function finishTest() {
+      alert("✅ Test saved. When you reopen, you'll continue from your wrong/empty ones.");
+      location.reload();
+    }
+
+    function resetScore() {
+      if(confirm("Are you sure you want to reset your score and answers?")) {
+        localStorage.clear();
+        location.reload();
+      }
+    }
+
+    submitBtn.onclick = checkAnswer;
+    prevBtn.onclick = () => { if (currentIndex > 0) { currentIndex--; showQuestion(); } };
+    nextBtn.onclick = () => { if (currentIndex < remainingIndexes.length - 1) { currentIndex++; showQuestion(); } };
+    finishBtn.onclick = finishTest;
+    resetBtn.onclick = resetScore;
+
+    function filterRemaining() {
+      remainingIndexes = [];
+      for (let i = 0; i < questions.length; i++) {
+        const saved = localStorage.getItem(`answer_${i}`);
+        if (!saved || clean(saved) !== clean(questions[i].Cevap)) {
+          remainingIndexes.push(i);
+        }
+      }
+    }
+
+    async function loadQuestionsFromJSON() {
+      try {
+        const res = await fetch("questions.json");
+        if (!res.ok) throw new Error("questions.json not found");
+        questions = await res.json();
+        filterRemaining();
+        currentIndex = 0;
+        showQuestion();
+      } catch (error) {
+        alert("Error loading questions.json: " + error.message);
+      }
+    }
+
+    // Sayfa yüklendiğinde soruları JSON'dan yükle
+    loadQuestionsFromJSON();
+  </script>
+</body>
+</html>
